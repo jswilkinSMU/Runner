@@ -14,6 +14,6 @@ How to use:
 
 Build and Use:
 
-	1. Extract the zip folder to you desired location.
-	2. Open the Run folder
+	1. Download and Extract the zip folder.
+	2. Open the Run folder.
 	3. Double-click Runner_Release_x64.exe to start the program.
