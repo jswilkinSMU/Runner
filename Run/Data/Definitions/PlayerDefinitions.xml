@@ -1,0 +1,49 @@
+<Definitions>
+	<!-- Runner -->
+	<PlayerDefinition name="Runner" visible="true">
+  		<Collision physicsRadius="0.5f" physicsHeight="0.8f" collidesWithBlock="true"/>
+  		<Physics simulated="true" moveSpeed="5.0f" strafeSpeed="5.0f" jumpForce="13.5f"/>
+  		<Camera cameraFOV="60.0f"/>
+		<Visuals spriteSize="1.6,1.6" spritePivot="0.5,0.0" billboardType="WorldUpFacing" renderLit="true" renderRounded="true" shader="Data/Shaders/Phong" spriteSheet="Data/Images/runnerSheet.png" cellCount="8,3">
+			<AnimationGroup name="Walk" scaleBySpeed="true" secondsPerFrame="0.25" playbackMode="Loop">
+				<Direction vector="-1,0,0">
+					<Animation startFrame="0" endFrame="3"/>
+				</Direction>
+			</AnimationGroup>
+			<AnimationGroup name="Turn" secondsPerFrame="0.1" playbackMode="Loop">
+				<Direction vector="-1,0,0">
+					<Animation startFrame="4" endFrame="5"/>
+				</Direction>
+			</AnimationGroup>
+			<AnimationGroup name="Jump" secondsPerFrame="0.75" playbackMode="Once">
+				<Direction vector="-1,0,0">
+					<Animation startFrame="6" endFrame="6"/>
+				</Direction>
+			</AnimationGroup>
+		</Visuals>
+	</PlayerDefinition>
+
+	<!-- Skater -->
+	<PlayerDefinition name="Skater" visible="true">
+  		<Collision physicsRadius="0.5f" physicsHeight="0.8f" collidesWithBlock="true"/>
+  		<Physics simulated="true" moveSpeed="7.0f" strafeSpeed="8.0f" jumpForce="8.5f"/>
+  		<Camera cameraFOV="60.0f"/>
+		<Visuals spriteSize="1.6,1.6" spritePivot="0.5,0.0" billboardType="WorldUpFacing" renderLit="true" renderRounded="true" shader="Data/Shaders/Phong" spriteSheet="Data/Images/skaterSheet.png" cellCount="8,3">
+			<AnimationGroup name="Walk" scaleBySpeed="true" secondsPerFrame="0.25" playbackMode="Loop">
+				<Direction vector="-1,0,0">
+					<Animation startFrame="0" endFrame="3"/>
+				</Direction>
+			</AnimationGroup>
+			<AnimationGroup name="Turn" secondsPerFrame="0.1" playbackMode="Loop">
+				<Direction vector="-1,0,0">
+					<Animation startFrame="4" endFrame="5"/>
+				</Direction>
+			</AnimationGroup>
+			<AnimationGroup name="Jump" secondsPerFrame="0.75" playbackMode="Once">
+				<Direction vector="-1,0,0">
+					<Animation startFrame="6" endFrame="6"/>
+				</Direction>
+			</AnimationGroup>
+		</Visuals>
+	</PlayerDefinition>
+</Definitions>
