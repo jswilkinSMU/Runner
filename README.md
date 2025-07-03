@@ -11,3 +11,9 @@ How to use:
 		    - D - Turn Right
 		    - P - Pause
 		    - R - Reset
+
+Build and Use:
+
+	1. Extract the zip folder to you desired location.
+	2. Open the Run folder
+	3. Double-click Runner_Release_x64.exe to start the program.
