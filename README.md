@@ -3,7 +3,7 @@ A 2.5D platformer that is based off of the Run series on CoolmathGames. In this 
 The game is data driven, parsing data from PlayerDefinitions and GameConfig. The game features physics collisions, player vs blocks.
 Runner handles level switching and progression through a level manager. Features custom made sprite sheets and a billboarded player character.
 
-![Runner Banner](https://github.com/jswilkinSMU/Runner/blob/main/RunnerHeroImage.png)
+![Runner Banner](https://github.com/jswilkinSMU/Runner/blob/main/RunnerHeroFinal.png)
 
 ### How to use:
 
