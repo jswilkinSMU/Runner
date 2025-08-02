@@ -1,0 +1,79 @@
+<Definitions>
+	<!-- Runner -->
+	<PlayerDefinition name="Runner" visible="true">
+  		<Collision physicsRadius="0.5f" physicsHeight="0.8f" collidesWithBlock="true"/>
+  		<Physics simulated="true" moveSpeed="5.0f" strafeSpeed="5.0f" jumpForce="13.5f"/>
+  		<Camera cameraFOV="60.0f"/>
+		<Visuals spriteSize="1.6,1.6" spritePivot="0.5,0.25" billboardType="WorldUpFacing" renderLit="true" renderRounded="true" shader="Data/Shaders/Phong" spriteSheet="Data/Images/runnerSheet.png" cellCount="20,8">
+			<AnimationGroup name="Walk" scaleBySpeed="true" secondsPerFrame="0.06" playbackMode="Loop">
+				<Direction vector="-1,0,0">
+					<Animation startFrame="0" endFrame="18"/>
+				</Direction>
+			</AnimationGroup>
+			<AnimationGroup name="Idle" scaleBySpeed="true" secondsPerFrame="0.05" playbackMode="Loop">
+				<Direction vector="-1,0,0">
+					<Animation startFrame="0" endFrame="0"/>
+				</Direction>
+			</AnimationGroup>
+			<AnimationGroup name="Fall" scaleBySpeed="true" secondsPerFrame="0.05" playbackMode="Loop">
+				<Direction vector="-1,0,0">
+					<Animation startFrame="70" endFrame="70"/>
+				</Direction>
+			</AnimationGroup>
+			<AnimationGroup name="TurnLeft" secondsPerFrame="0.05" playbackMode="Once">
+				<Direction vector="-1,0,0">
+					<Animation startFrame="20" endFrame="37"/>
+				</Direction>
+			</AnimationGroup>
+			<AnimationGroup name="TurnRight" secondsPerFrame="0.05" playbackMode="Once">
+				<Direction vector="-1,0,0">
+					<Animation startFrame="40" endFrame="57"/>
+				</Direction>
+			</AnimationGroup>
+			<AnimationGroup name="Jump" secondsPerFrame="0.1" playbackMode="Once">
+				<Direction vector="-1,0,0">
+					<Animation startFrame="60" endFrame="72"/>
+				</Direction>
+			</AnimationGroup>
+		</Visuals>
+	</PlayerDefinition>
+
+	<!-- Skater -->
+	<PlayerDefinition name="Skater" visible="true">
+  		<Collision physicsRadius="0.5f" physicsHeight="0.8f" collidesWithBlock="true"/>
+  		<Physics simulated="true" moveSpeed="7.0f" strafeSpeed="8.0f" jumpForce="13.5f"/>
+  		<Camera cameraFOV="60.0f"/>
+		<Visuals spriteSize="1.6,1.6" spritePivot="0.5,0.25" billboardType="WorldUpFacing" renderLit="true" renderRounded="true" shader="Data/Shaders/Phong" spriteSheet="Data/Images/skaterSheet.png" cellCount="20,8">
+			<AnimationGroup name="Walk" scaleBySpeed="true" secondsPerFrame="0.075" playbackMode="Loop">
+				<Direction vector="-1,0,0">
+					<Animation startFrame="0" endFrame="19"/>
+				</Direction>
+			</AnimationGroup>
+			<AnimationGroup name="Idle" scaleBySpeed="true" secondsPerFrame="0.075" playbackMode="Loop">
+				<Direction vector="-1,0,0">
+					<Animation startFrame="0" endFrame="0"/>
+				</Direction>
+			</AnimationGroup>
+			<AnimationGroup name="Fall" scaleBySpeed="true" secondsPerFrame="0.075" playbackMode="Loop">
+				<Direction vector="-1,0,0">
+					<Animation startFrame="70" endFrame="70"/>
+				</Direction>
+			</AnimationGroup>
+			<AnimationGroup name="TurnLeft" secondsPerFrame="0.075" playbackMode="Once">
+				<Direction vector="-1,0,0">
+					<Animation startFrame="20" endFrame="39"/>
+				</Direction>
+			</AnimationGroup>
+			<AnimationGroup name="TurnRight" secondsPerFrame="0.075" playbackMode="Once">
+				<Direction vector="-1,0,0">
+					<Animation startFrame="40" endFrame="59"/>
+				</Direction>
+			</AnimationGroup>
+			<AnimationGroup name="Jump" secondsPerFrame="0.1" playbackMode="Once">
+				<Direction vector="-1,0,0">
+					<Animation startFrame="60" endFrame="72"/>
+				</Direction>
+			</AnimationGroup>
+		</Visuals>
+	</PlayerDefinition>
+</Definitions>

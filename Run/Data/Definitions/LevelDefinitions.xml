@@ -1,0 +1,94 @@
+<Definitions>
+  <!-- Level 1 -->
+  <LevelDefinition name="LevelOne" shader="Data/Shaders/Phong">
+    <SpawnInfos>
+      <SpawnInfo levelItem="Block" center="0.0,0.0,-0.5" dimensions="10.0,10.0,0.0" orientation="0.0,0.0,0.0" color="0,255,0"/>
+      <SpawnInfo levelItem="Block" center="10.0,2.0,1.0" dimensions="6.0,6.0,0.8" orientation="0.0,0.0,0.0" color="0,0,255"/>
+      <SpawnInfo levelItem="Block" center="20.0,-2.0,1.0" dimensions="6.0,6.0,0.8" orientation="0.0,0.0,0.0" color="0,0,255"/>
+      <SpawnInfo levelItem="Block" center="30.0,0.0,2.0" dimensions="6.0,6.0,0.8" orientation="0.0,0.0,0.0" color="0,0,255"/>
+      <SpawnInfo levelItem="Block" center="40.0,4.0,3.0" dimensions="6.0,3.0,0.8" orientation="0.0,0.0,0.0" color="0,0,255"/>
+      <SpawnInfo levelItem="Block" center="50.0,0.0,3.0" dimensions="6.0,3.0,0.8" orientation="0.0,0.0,0.0" color="0,0,255"/>
+      <SpawnInfo levelItem="Block" center="60.0,-3.0,4.0" dimensions="6.0,1.0,0.8" orientation="0.0,0.0,0.0" color="0,0,255"/>
+      <SpawnInfo levelItem="Block" center="70.0,2.0,5.0" dimensions="4.0,3.0,0.8" orientation="0.0,0.0,0.0" color="0,0,255"/>
+      <SpawnInfo levelItem="EndGoal" center="75.0,0.0,7.0" radius="1.0" color="255,215,0"/>
+    </SpawnInfos>
+  </LevelDefinition>
+	
+  <!-- Level 2 -->
+  <LevelDefinition name="LevelTwo" shader="Data/Shaders/Phong">
+	<SpawnInfos>
+		<SpawnInfo levelItem="Block" center="0.0,0.0,-0.5" dimensions="10.0,10.0,0.0" orientation="0.0,0.0,0.0" color="0,255,0"/>
+		<SpawnInfo levelItem="Block" center="10.0,2.0,1.0" dimensions="5.0,5.0,0.8" orientation="0.0,0.0,0.0" color="255,0,0"/>
+		<SpawnInfo levelItem="Block" center="16.0,0.0,1.5" dimensions="4.0,4.0,0.8" orientation="0.0,10.0,0.0" color="255,0,0"/>
+		<SpawnInfo levelItem="Block" center="22.0,-2.0,2.0" dimensions="5.0,4.0,0.8" orientation="0.0,0.0,0.0" color="255,0,0"/>
+		<SpawnInfo levelItem="Block" center="28.0,0.0,2.5" dimensions="4.0,4.0,0.8" orientation="10.0,0.0,0.0" color="255,0,0"/>
+		<SpawnInfo levelItem="Block" center="34.0,2.0,3.0" dimensions="5.0,3.0,0.8" orientation="0.0,0.0,0.0" color="255,0,0"/>
+		<SpawnInfo levelItem="Block" center="40.0,0.0,3.5" dimensions="4.0,4.0,0.8" orientation="0.0,0.0,10.0" color="255,0,0"/>
+		<SpawnInfo levelItem="Block" center="46.0,-2.0,4.0" dimensions="4.0,4.0,0.8" orientation="0.0,0.0,0.0" color="255,0,0"/>
+		<SpawnInfo levelItem="Block" center="52.0,1.0,5.0" dimensions="3.0,3.0,0.8" orientation="0.0,0.0,0.0" color="255,0,0"/>
+		<SpawnInfo levelItem="Block" center="58.0,0.0,6.0" dimensions="2.0,2.0,0.8" orientation="0.0,0.0,0.0" color="255,0,0"/>
+		<SpawnInfo levelItem="EndGoal" center="65.0,0.0,7.0" radius="1.0" color="255,215,0"/>
+	</SpawnInfos>
+  </LevelDefinition>
+
+  <!-- Level 3 -->
+  <LevelDefinition name="LevelThree" shader="Data/Shaders/Phong">
+	<SpawnInfos>
+		<SpawnInfo levelItem="Block" center="0.0,0.0,-0.5" dimensions="10.0,10.0,0.0" orientation="0.0,0.0,0.0" color="0,255,0"/>
+		<SpawnInfo levelItem="Block" center="10.0,2.0,1.0" dimensions="3.0,3.0,0.8" orientation="0.0,0.0,0.0" color="128,0,128"/>
+		<SpawnInfo levelItem="Block" center="18.0,-2.0,2.0" dimensions="4.0,4.0,0.8" orientation="0.0,0.0,0.0" color="128,0,128"/>
+		<SpawnInfo levelItem="Block" center="26.0,0.0,2.5" dimensions="2.5,2.5,0.8" orientation="0.0,0.0,0.0" color="128,0,128"/>
+		<SpawnInfo levelItem="Block" center="35.0,3.0,3.5" dimensions="4.0,3.0,0.8" orientation="0.0,0.0,0.0" color="128,0,128"/>
+		<SpawnInfo levelItem="Block" center="43.0,-3.0,4.5" dimensions="3.0,2.0,0.8" orientation="0.0,0.0,0.0" color="128,0,128"/>
+		<SpawnInfo levelItem="Block" center="52.0,1.0,5.5" dimensions="3.0,3.0,0.8" orientation="0.0,0.0,0.0" color="128,0,128"/>
+		<SpawnInfo levelItem="Block" center="60.0,0.0,6.0" dimensions="2.0,2.0,0.8" orientation="0.0,0.0,0.0" color="128,0,128"/>
+		<SpawnInfo levelItem="EndGoal" center="68.0,0.0,7.0" radius="1.0" color="255,215,0"/>
+	</SpawnInfos>
+  </LevelDefinition>
+
+  <!-- Level 4 -->
+  <LevelDefinition name="LevelFour" shader="Data/Shaders/Phong">
+	<SpawnInfos>
+		<SpawnInfo levelItem="Block" center="0.0,0.0,-0.5" dimensions="10.0,10.0,0.0" orientation="0.0,0.0,0.0" color="0,255,0"/>
+		<SpawnInfo levelItem="Block" center="10.0,2.0,1.0" dimensions="5.0,5.0,0.8" orientation="0.0,0.0,0.0" color="255,255,0"/>
+		<SpawnInfo levelItem="Block" center="18.0,-2.0,2.0" dimensions="5.0,5.0,0.8" orientation="0.0,0.0,0.0" color="255,255,0"/>
+		<SpawnInfo levelItem="Block" center="26.0,2.0,3.0" dimensions="5.0,5.0,0.8" orientation="5.0,0.0,0.0" color="255,255,0"/>
+		<SpawnInfo levelItem="Block" center="34.0,-2.0,4.0" dimensions="5.0,5.0,0.8" orientation="0.0,0.0,5.0" color="255,255,0"/>
+		<SpawnInfo levelItem="Block" center="42.0,2.0,5.0" dimensions="4.0,4.0,0.8" orientation="0.0,5.0,0.0" color="255,255,0"/>
+		<SpawnInfo levelItem="Block" center="50.0,-2.0,6.0" dimensions="4.0,4.0,0.8" orientation="5.0,0.0,0.0" color="255,255,0"/>
+		<SpawnInfo levelItem="Block" center="58.0,2.0,7.0" dimensions="3.5,3.5,0.8" orientation="0.0,5.0,0.0" color="255,255,0"/>
+		<SpawnInfo levelItem="Block" center="66.0,0.0,8.0" dimensions="3.0,3.0,0.8" orientation="0.0,0.0,0.0" color="255,255,0"/>
+		<SpawnInfo levelItem="EndGoal" center="72.0,0.0,9.0" radius="1.0" color="255,215,0"/>
+	</SpawnInfos>
+  </LevelDefinition>
+
+  <!-- Level 5 -->
+  <LevelDefinition name="LevelFive" shader="Data/Shaders/Phong">
+	<SpawnInfos>
+		<SpawnInfo levelItem="Block" center="0.0,0.0,-0.5" dimensions="10.0,10.0,0.0" orientation="0.0,0.0,0.0" color="0,255,0"/>
+		<SpawnInfo levelItem="Block" center="10.0,0.0,1.0" dimensions="6.0,6.0,0.8" color="255,165,0"/>
+		<SpawnInfo levelItem="Block" center="18.0,2.0,1.5" dimensions="4.0,2.0,0.8" color="255,165,0"/>
+		<SpawnInfo levelItem="Block" center="26.0,-1.5,2.0" dimensions="8.0,1.0,0.8" color="255,165,0"/>
+		<SpawnInfo levelItem="Block" center="35.0,1.5,3.0" dimensions="2.0,6.0,0.8" color="255,165,0"/>
+		<SpawnInfo levelItem="Block" center="44.0,-1.0,4.0" dimensions="10.0,2.0,0.8" color="255,165,0"/>
+		<SpawnInfo levelItem="Block" center="52.0,0.5,5.0" dimensions="3.0,3.0,0.8" color="255,165,0"/>
+		<SpawnInfo levelItem="Block" center="60.0,2.0,6.0" dimensions="2.0,8.0,0.8" color="255,165,0"/>
+		<SpawnInfo levelItem="Block" center="68.0,-2.0,7.0" dimensions="7.0,1.0,0.8" color="255,165,0"/>
+		<SpawnInfo levelItem="Block" center="76.0,0.5,8.0" dimensions="2.0,2.0,0.8" color="255,165,0"/>
+		<SpawnInfo levelItem="Block" center="84.0,0.0,8.0" dimensions="10.0,0.6,0.8" color="255,140,0"/>
+		<SpawnInfo levelItem="Block" center="92.0,-0.5,8.2" dimensions="6.0,0.6,0.8" color="255,140,0"/>
+		<SpawnInfo levelItem="Block" center="99.0,1.0,9.0" dimensions="3.0,3.0,0.8" color="255,140,0"/>
+		<SpawnInfo levelItem="Block" center="107.0,2.0,10.0" dimensions="6.0,2.0,0.8" color="255,140,0"/>
+		<SpawnInfo levelItem="Block" center="115.0,-2.0,11.0" dimensions="2.0,6.0,0.8" color="255,140,0"/>
+		<SpawnInfo levelItem="Block" center="123.0,0.0,12.0" dimensions="10.0,2.0,0.8" color="255,140,0"/>
+		<SpawnInfo levelItem="Block" center="131.0,1.5,12.5" dimensions="3.0,3.0,0.8" color="255,215,0"/>
+		<SpawnInfo levelItem="Block" center="139.0,-1.5,13.0" dimensions="4.0,4.0,0.8" color="255,215,0"/>
+		<SpawnInfo levelItem="Block" center="147.0,0.5,13.5" dimensions="3.0,3.0,0.8" color="255,215,0"/>
+		<SpawnInfo levelItem="Block" center="155.0,-0.5,14.0" dimensions="5.0,2.0,0.8" color="255,215,0"/>
+		<SpawnInfo levelItem="Block" center="163.0,0.0,15.0" dimensions="3.0,3.0,0.8" color="255,215,0"/>
+		<SpawnInfo levelItem="Block" center="171.0,0.0,15.5" dimensions="2.5,2.5,0.8" color="255,215,0"/>
+		<SpawnInfo levelItem="Block" center="178.0,0.0,16.0" dimensions="3.0,3.0,0.8" color="255,215,0"/>
+		<SpawnInfo levelItem="EndGoal" center="180.0,0.0,17.0" radius="1.0" color="255,215,0"/>
+	</SpawnInfos>
+  </LevelDefinition>
+</Definitions>

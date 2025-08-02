@@ -1,0 +1,8 @@
+<GameConfig
+  musicVolume="0.1"
+  mainMenuMusic="Data/Audio/ciaccona.mp3"
+  gameMusic="Data/Audio/Run_Theme.mp3"
+  buttonClickSound="Data/Audio/Click.mp3"
+	windowAspect="2.0"
+/>
+
